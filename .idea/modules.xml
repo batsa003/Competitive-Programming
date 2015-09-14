@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/COMPETITIVE PROGRAMMING.iml" filepath="$PROJECT_DIR$/COMPETITIVE PROGRAMMING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geometry/Geometry.iml" filepath="$PROJECT_DIR$/Geometry/Geometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOI2015/IOI2015.iml" filepath="$PROJECT_DIR$/IOI2015/IOI2015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POJ/POJ.iml" filepath="$PROJECT_DIR$/POJ/POJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEMPLATES/TEMPLATES.iml" filepath="$PROJECT_DIR$/TEMPLATES/TEMPLATES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrainingGym/TrainingGym.iml" filepath="$PROJECT_DIR$/TrainingGym/TrainingGym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egork/egork.iml" filepath="$PROJECT_DIR$/egork/egork.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+13 G - Coin Game
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+7 221212
+
+2 3
+
+1
+11 src/created
+8 -Xmx256M
+4 Main
+13 created.TaskG
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.08.18
+143 2014-2015 CT S02E10: Codeforces Trainings Season 2 Episode 10 - 2014 Amirkabir University of Technology Annual Programming Contest (AUT APC 14)
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0

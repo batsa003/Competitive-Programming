@@ -1,0 +1,30 @@
+27 J - ACM Student Chapter (B)
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+29 3
+03:22:15
+00:42:08
+18:49:22
+
+2 1
+
+1
+11 src/created
+7 -Xmx64M
+4 Main
+13 created.TaskJ
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.08.04
+25 2015 PSUT Coding Marathon
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0

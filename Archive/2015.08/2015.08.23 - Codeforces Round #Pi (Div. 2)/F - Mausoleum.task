@@ -1,0 +1,41 @@
+13 F - Mausoleum
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+4 3 0
+
+2 9
+
+1
+1
+10 3 1
+2 > 3
+
+2 1
+
+1
+2
+10 4 1
+3 = 6
+
+2 3
+
+1
+11 src/created
+8 -Xmx256M
+4 Main
+13 created.TaskF
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.08.23
+29 Codeforces Round #Pi (Div. 2)
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0

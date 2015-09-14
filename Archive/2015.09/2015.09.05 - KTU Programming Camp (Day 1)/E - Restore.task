@@ -1,0 +1,32 @@
+11 E - Restore
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+20 3
+0 9 4
+7 0 3
+6 1 0
+
+21 2 9 4 
+7 5 3 
+6 1 8 
+
+1
+11 src/created
+7 -Xmx64M
+4 Main
+13 created.TaskE
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.09.05
+28 KTU Programming Camp (Day 1)
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0
