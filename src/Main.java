@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
+import java.math.BigInteger;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -20,77 +21,34 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
-        TaskD solver = new TaskD();
+        TaskC solver = new TaskC();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskD {
+    static class TaskC {
         public void solve(int testNumber, InputReader in, PrintWriter out) {
-            int n = in.nextInt();
-            int[] p = new int[n + 1];
-            for (int i = 1; i <= n; i++) {
-                p[i] = in.nextInt();
-            }
 
-            boolean[] vis = new boolean[n + 1];
-            int[] size = new int[n + 1];
-            for (int i = 1; i <= n; i++) {
-                if (p[i] == i) {
-                    out.println("YES");
-                    for (int j = 1; j <= n; j++) {
-                        if (j != i) {
-                            out.println(i + " " + j);
-                        }
-                    }
-                    return;
-                }
+
+            String s = in.next();
+            BigInteger a = BigInteger.valueOf(in.nextInt());
+            BigInteger b = BigInteger.valueOf(in.nextInt());
+
+            if (s.length() == 1) {
+                out.println("NO");
+                return;
             }
-            for (int node = 1; node <= n; node++) {
-                if (!vis[node]) {
-                    int count = 1;
-                    int cur = p[node];
-                    vis[node] = true;
-                    while (cur != node) {
-                        vis[cur] = true;
-                        count++;
-                        cur = p[cur];
-                    }
-                    size[cur] = count;
-                    if (count > 1 && count % 2 == 1) {
-                        out.println("NO");
-                        return;
-                    }
-                }
-            }
-            for (int i = 1; i <= n; i++) {
-                if (size[i] == 2) {
-                    int u = i;
-                    int pu = p[u];
+            for (int i = 0; i < s.length() - 1; i++) {
+                BigInteger one = new BigInteger(s.substring(0, i + 1));
+                BigInteger two = new BigInteger(s.substring(i + 1));
+                if (one.mod(a).longValue() == 0 && two.mod(b).longValue() == 0) {
                     out.println("YES");
-                    out.println(u + " " + pu);
-                    for (int j = 1; j <= n; j++) {
-                        if (j != u && j != pu && size[j] > 1) {
-                            out.println(u + " " + j);
-                            int cur = p[j];
-                            int ind = 1;
-                            while (cur != j) {
-                                if (ind % 2 == 1) {
-                                    out.println(p[u] + " " + cur);
-                                } else {
-                                    out.println(u + " " + cur);
-                                }
-                                cur = p[cur];
-                                ind++;
-                            }
-                        }
-                    }
+                    out.println(one.toString());
+                    out.println(two.toString());
                     return;
                 }
             }
             out.println("NO");
-
-
         }
 
     }

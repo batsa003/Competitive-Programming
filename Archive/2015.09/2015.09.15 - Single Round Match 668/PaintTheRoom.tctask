@@ -1,0 +1,49 @@
+12 PaintTheRoom
+14 canPaintEvenly
+16 java.lang.String
+3
+3 int
+1 R
+3 int
+1 C
+3 int
+1 K
+4
+0
+3
+int 1
+int 1
+int 1
+String
+5 Paint
+1
+1
+3
+int 1
+int 1
+int 2
+String
+12 Cannot paint
+1
+2
+3
+int 1
+int 2
+int 2
+String
+5 Paint
+1
+3
+3
+int 2
+int 2
+int 3
+String
+5 Paint
+1
+10 2015.09.15
+22 Single Round Match 668
+0
+20 created.PaintTheRoom
+0
+4 256M

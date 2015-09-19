@@ -1,0 +1,35 @@
+23 B - &quot;Or&quot; Game
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+2
+0
+12 3 1 2
+1 1 1
+
+2 3
+
+1
+1
+14 4 2 3
+1 2 4 8
+
+3 79
+
+1
+11 src/created
+8 -Xmx256M
+4 Main
+13 created.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.09.16
+51 Codeforces Round #320 (Div. 1) [Bayan Thanks-Round]
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0
