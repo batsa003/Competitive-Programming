@@ -12,7 +12,7 @@ public class BellmanFordShortestPath {
     private int inf = 1000010;
 
     public int bellman(Edge[] graph, int start, int end, int n) {//-1 if negative cycle, //-2 if inf
-        int dist[] = new int[n+1];
+        int[] dist = new int[n+1];
         fill(dist, inf);
         dist[start] = 0;
 

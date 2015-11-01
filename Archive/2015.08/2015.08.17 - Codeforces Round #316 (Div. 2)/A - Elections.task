@@ -1,4 +1,4 @@
-13 A - Elections
+13 FourSidedFigures - Elections
 6 SINGLE
 8 STANDARD
 -1
@@ -24,7 +24,7 @@
 1
 11 src/created
 8 -Xmx256M
-4 Main
+4 TicketPricing
 13 created.TaskA
 39 net.egork.chelper.checkers.TokenChecker
 0 

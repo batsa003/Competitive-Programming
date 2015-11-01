@@ -1,4 +1,4 @@
-26 A - Primes or Palindromes?
+26 FourSidedFigures - Primes or Palindromes?
 6 SINGLE
 8 STANDARD
 9 input.txt
@@ -23,7 +23,7 @@
 1
 11 src/created
 8 -Xmx256M
-4 Main
+4 TicketPricing
 13 created.TaskA
 39 net.egork.chelper.checkers.TokenChecker
 0 

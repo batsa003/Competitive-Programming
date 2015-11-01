@@ -15,8 +15,8 @@ class BipartiteMatching
 {
     int n;
     ArrayList<Integer>[] G;
-    int match[];// match=-1 means it is not matched, otherwise it shows the match
-    boolean used[];
+    int[] match;// match=-1 means it is not matched, otherwise it shows the match
+    boolean[] used;
     // n is the number of nodes
     // nodes must be 0 ... n-1
 

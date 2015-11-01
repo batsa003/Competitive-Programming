@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/COMPETITIVE PROGRAMMING.iml" filepath="$PROJECT_DIR$/COMPETITIVE PROGRAMMING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSCI4041H/CSCI4041H.iml" filepath="$PROJECT_DIR$/CSCI4041H/CSCI4041H.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSCI4041H/CSCI4041H- Programming Assignment 1/CSCI4041H- Programming Assignment 1.iml" filepath="$PROJECT_DIR$/CSCI4041H/CSCI4041H- Programming Assignment 1/CSCI4041H- Programming Assignment 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geometry/Geometry.iml" filepath="$PROJECT_DIR$/Geometry/Geometry.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOI2015/IOI2015.iml" filepath="$PROJECT_DIR$/IOI2015/IOI2015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KATTIS/KATTIS.iml" filepath="$PROJECT_DIR$/KATTIS/KATTIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microsoft Coding Competition/Microsoft Coding Competition.iml" filepath="$PROJECT_DIR$/Microsoft Coding Competition/Microsoft Coding Competition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/North America Qualifier/North America Qualifier.iml" filepath="$PROJECT_DIR$/North America Qualifier/North America Qualifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/POJ/POJ.iml" filepath="$PROJECT_DIR$/POJ/POJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/TEMPLATES/TEMPLATES.iml" filepath="$PROJECT_DIR$/TEMPLATES/TEMPLATES.iml" />
       <module fileurl="file://$PROJECT_DIR$/TrainingGym/TrainingGym.iml" filepath="$PROJECT_DIR$/TrainingGym/TrainingGym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trip Advisor/Trip Advisor.iml" filepath="$PROJECT_DIR$/Trip Advisor/Trip Advisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/egork/egork.iml" filepath="$PROJECT_DIR$/egork/egork.iml" />
     </modules>
   </component>

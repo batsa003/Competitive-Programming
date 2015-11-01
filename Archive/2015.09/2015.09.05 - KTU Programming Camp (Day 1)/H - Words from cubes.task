@@ -29,7 +29,7 @@ s 7 1 1 2 7
 1
 11 src/created
 7 -Xmx64M
-4 Main
+4 TicketPricing
 13 created.TaskH
 39 net.egork.chelper.checkers.TokenChecker
 0 

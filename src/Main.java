@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
-import java.math.BigInteger;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -21,34 +20,33 @@ public class Main {
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
-        TaskC solver = new TaskC();
+        TaskB solver = new TaskB();
         solver.solve(1, in, out);
         out.close();
     }
 
-    static class TaskC {
-        public void solve(int testNumber, InputReader in, PrintWriter out) {
+    static class TaskB {
+        static long mod = 1000000007;
 
+        static long exp(long a, int e) {
+            long ans = 1;
 
-            String s = in.next();
-            BigInteger a = BigInteger.valueOf(in.nextInt());
-            BigInteger b = BigInteger.valueOf(in.nextInt());
-
-            if (s.length() == 1) {
-                out.println("NO");
-                return;
-            }
-            for (int i = 0; i < s.length() - 1; i++) {
-                BigInteger one = new BigInteger(s.substring(0, i + 1));
-                BigInteger two = new BigInteger(s.substring(i + 1));
-                if (one.mod(a).longValue() == 0 && two.mod(b).longValue() == 0) {
-                    out.println("YES");
-                    out.println(one.toString());
-                    out.println(two.toString());
-                    return;
+            while (e > 0) {
+                if ((e & 1) != 0) {
+                    ans = (ans * a) % mod;
                 }
+                a *= a;
+                a %= mod;
+                e = e >> 1;
             }
-            out.println("NO");
+            return ans;
+
+        }
+
+        public void solve(int testNumber, InputReader in, PrintWriter out) {
+            int n = in.nextInt();
+            out.println((exp(3, 3 * n) - exp(7, n) + mod) % mod);
+
         }
 
     }
