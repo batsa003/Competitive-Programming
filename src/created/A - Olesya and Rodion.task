@@ -1,0 +1,26 @@
+21 A - Olesya and Rodion
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+4 3 2
+
+3 712
+1
+11 src/created
+8 -Xmx256M
+4 Main
+13 created.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.10.30
+30 Codeforces Round #324 (Div. 2)
+1
+17 utils.InputReader
+19 java.io.PrintWriter
+0
+0

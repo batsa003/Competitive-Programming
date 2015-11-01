@@ -1,0 +1,8 @@
+Customer 1: Paul Sims
+Customer 1 Priority: 4
+Customer 2: Jack
+Customer 2 Priority: 100
+Customer 3: James
+Customer 3 Priority: 50
+Customer 4: Alan Smith
+Customer 4 Priority: 5
